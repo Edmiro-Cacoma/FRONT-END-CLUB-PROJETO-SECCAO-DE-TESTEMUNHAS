@@ -1,0 +1,96 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body, html{
+    display: grid;
+    place-items: center;
+    background: #3ee2ff;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container .content{
+max-width: 900px;
+margin: 20px;
+background: #fff;
+width: 400px;
+height: 420px;
+padding: 25px;
+border-radius: 3px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, .15);
+}
+
+.container .content .content-box .info{
+    display: flex;align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.container .personal-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container .content-box .info .image{
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: #17a2b8;
+    border-radius: 50%;
+}
+
+.container .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #ffff;
+}
+
+.container .personal-info .name h3{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.container .personal-info .job{
+    font-size: 16px;
+    font-weight: 500;
+    color:#17a2b8;
+    margin: 10px;
+}
+
+.container .personal-info .stars{
+    margin: 2px;
+}
+
+.container .personal-info .stars i{
+    color: #17a2b7;
+}
+
+.container .content p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.container .content #quote-bottom{
+    float: right;
+}
